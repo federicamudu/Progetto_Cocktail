@@ -1,0 +1,473 @@
+[
+    {
+        "difficulty": 3,
+        "price":5,
+        "ingredients": [
+            "4.5 cl (3 parts) vodka",
+            "9 cl (6 parts) Tomato juice",
+            "1.5 cl (1 part) Lemon juice",
+            "2 to 3 dashes of Worcestershire Sauce",
+            "Tabasco sauce",
+            "Celery salt",
+            "Black pepper"
+        ],
+        "instructions": "Stirring gently, pour all ingredients into highball glass. Garnish.",
+        "name": "bloody mary"
+        
+    },
+    {
+        "difficulty": 1,
+        "price":5,
+        "ingredients": [
+            "One part Plymouth gin",
+            "One Part Water",
+            "Dash of Angostura Bitters (adjust to taste)"
+        ],
+        "instructions": "Chill the glass, then coat the inside with the Bitters.  Add the gin very well chilled, garnish and serve.",
+        "name": "pink gin"
+    },
+    {
+        "difficulty": 1,
+        "price":5,
+        "ingredients": [
+            "4.5 cl (3 parts) vodka",
+            "9 cl (6 parts) Tomato juice",
+            "1.5 cl (1 part) Lemon juice",
+            "2 to 3 dashes of Worcestershire Sauce",
+            "Tabasco sauce",
+            "Celery salt",
+            "Black pepper"
+        ],
+        "instructions": "Stirring gently, pour all ingredients into highball glass. Garnish.",
+        "name": "ginza mary"
+    },
+    {
+        "difficulty": 5,
+        "price":5,
+        "ingredients": [
+            "3 lf Basil",
+            "2 oz Gin, Beefeater",
+            "1 oz Elderflower liqueur, St. Germain",
+            "1/2 oz Lemon juice",
+            "2 ds Lemon bitters (optional)",
+            "4 oz Tonic water (Thomas Henry, to top)",
+            "1 twst Lemon zest (for garnish)"
+        ],
+        "instructions": "Lighlly muddle the basil leaves. Add ingredients apart from tonic water and shake with ice. Strain into an ice-filled Collins glass and top up with tonic water. Granish with a lemon twist.",
+        "name": "gin atomic"
+    },
+    {
+        "difficulty": 4,
+        "price":5,
+        "ingredients": [
+            "2 oz Gin",
+            "1 t Sugar (superfine, or 1/4 oz 50 brix simple syrup)",
+            "2 spg Basil (slapped, one muddled and one as garnish)"
+        ],
+        "instructions": "Build in julep glass over crushed ice, churn with barspoon, top with more crushed ice and a sprig of basil.",
+        "name": "gin basil julep"
+    },
+    {
+        "difficulty": 5,
+        "price":6,
+        "ingredients": [
+            "2 oz Gin, Beefeater",
+            "1 oz Lemon juice (1/2 lemon)",
+            "2/3 oz Simple syrup",
+            "20 lf Basil",
+            "1 lf Basil (as garnish)"
+        ],
+        "instructions": "Muddle 1/2 lemon with large handful basil, add simple and test for sweetness. Add ice and gin, shake, double strain, rocks-filled frozen old fashioned glass",
+        "name": "gin basil smash"
+    },
+    {
+        "difficulty": 2,
+        "price":6,
+        "ingredients": [
+            "1 1/2 oz Gin, Plymouth",
+            "3/4 oz Dry apricot brandy",
+            "3/4 oz Bianco Vermouth, Martini & Rossi",
+            "2 ds Orange bitters"
+        ],
+        "instructions": "Stir, strain, up, lemon twist.",
+        "name": "gin blossom"
+    },
+    {
+        "difficulty": 5,
+        "price":6,
+        "ingredients": [
+            "2 oz Gin",
+            "1/2 oz Maraschino Liqueur",
+            "1 oz Grapefruit juice",
+            "1/2 oz Lemon juice",
+            "2 ds Lavender bitters",
+            "1 ds Grapefruit bitters",
+            "1 twst Lemon peel (garnish)"
+        ],
+        "instructions": "Shake, strain up, garnish",
+        "name": "analogue's  gin and juice"
+    },
+    {
+        "difficulty": 5,
+        "price":6,
+        "ingredients": [
+            "2 oz Old Tom Gin (or Plymouth)",
+            "1/2 oz Lemon juice",
+            "1/2 oz Lime juice",
+            "1 oz Simple syrup",
+            "3 dr Orange flower water",
+            "2 dr Vanilla extract (very optional)",
+            "1 oz Cream",
+            "1 oz Egg white",
+            "1 spl Soda water"
+        ],
+        "instructions": "Shake all ingredients except the soda water WITHOUT ICE very vigorously for at least one minute, preferably longer -- the longer the better. Then add ice and shake for 1-2 minutes, as long as you can manage, until extremely cold and frothy. Strain into a tall thin glass (no ice), or a very large old fashioned glass, and top with soda water. Stir gently.",
+        "name": "ramos gin fizz"
+    },
+    {
+        "difficulty": 5,
+        "price":6,
+        "ingredients": [
+            "1 1/2 oz Gin",
+            "1 1/2 oz Grapefruit juice",
+            "1/4 oz Lemon juice",
+            "3/4 oz Maraschino Liqueur, Luxardo",
+            "3/4 oz Fernet Branca"
+        ],
+        "instructions": "In a shaker, combine 1 1/2 oz. each gin and fresh grapefruit juice, 1/4 oz. lemon juice, and 3/4 oz. Luxardo maraschino. Shake with ice and strain into a double rocks glass filled with fresh ice. Top with 3/4 oz. Fernet Branca.",
+        "name": "jaded gin daiquiri"
+    },
+    {
+        "difficulty": 4,
+        "price":7,
+        "ingredients": [
+            "1 1/2 oz Scotch, Monkey Shoulder",
+            "7/8 oz Lemon juice",
+            "2 t Walnut oil",
+            "1/2 oz Rich demerara syrup 2:1",
+            "1/2 oz Egg white",
+            "1 bsp Islay Scotch, Ardbeg",
+            "1 spl Soda water"
+        ],
+        "instructions": "Mix, then shake with ice to emulsify the oil and other ingredients. Tall glass with ice.",
+        "name": "the difference engine"
+    },
+    {
+        "difficulty": 1,
+        "price":7,
+        "ingredients": [
+            "Two to four parts gin",
+            "One part sweetened lime juice"
+        ],
+        "instructions": "Mix and serve. Garnish with a slice of lime",
+        "name": "vodka gimlet"
+    },
+    {
+        "difficulty": 1,
+        "price":7,
+        "ingredients": [
+            "6 cl (6 parts) vodka",
+            "1 cl (1 parts) dry vermouth"
+        ],
+        "instructions": "Straight: Pour all ingredients into mixing glass with ice cubes. Shake well. Strain in chilled martini cocktail glass. Squeeze oil from lemon peel onto the drink, or garnish with olive.",
+        "name": "vodka martini"
+    },
+    {
+        "difficulty": 5,
+        "price":7,
+        "ingredients": [
+            "1 1/2 oz Vodka",
+            "3/4 oz Lemon juice",
+            "1/2 oz Aperol",
+            "1/2 oz Elderflower liqueur, St. Germain",
+            "1/2 oz Simple syrup",
+            "1 twst Grapefruit peel"
+        ],
+        "instructions": "Shake, strain, dbl OF, garnish",
+        "name": "old town vodka punch"
+    },
+    {
+        "difficulty": 2,
+        "price":7,
+        "ingredients": [
+            "2 oz Vodka (Pineapple & Ginger infused)",
+            "3/4 oz Lime juice",
+            "3/4 oz Vanilla syrup",
+            "1 ds Bitters, Bittermens Xocolatl Mole",
+            "2 ds Bitters, Angostura",
+            "3 spg Mint"
+        ],
+        "instructions": "Shake pineapple & ginger infused vodka, lime juice, vanilla syrup, and chocolate bitters.  Strain into Collins glass over crushed ice; Garnish with Angostura bitters and mint sprigs.",
+        "name": "sweatpants & vodka"
+    },
+    {
+        "difficulty": 3,
+        "price":8,
+        "ingredients": [
+            "4oz. black rum",
+            "4oz. gold rum",
+            "Juice of 2 lemons",
+            "5oz. pineapple juice",
+            "5oz orange juice",
+            "2oz. Bermuda falernum",
+            "6 dashes Angostura Bitters"
+        ],
+        "instructions": "Mix in pitcher with crushed ice, shake vigorously until a frothing head appears. Strain into cocktail glasses. Garnish with a slice of orange and a cherry. Serves 6.",
+        "name": "rum swizzle"
+    },
+    {
+        "difficulty": 5,
+        "price":8,
+        "ingredients": [
+            "1 oz Bermuda rum, Gosling's Black Seal",
+            "1 oz Aperol",
+            "1/2 oz Mint syrup",
+            "1/2 oz Grapefruit juice",
+            "1/2 oz Lime juice",
+            "1 spg Mint (as garnish)"
+        ],
+        "instructions": "Swizzle in a footed Pilsner glass and garnish.",
+        "name": "ruby rum"
+    },
+    {
+        "difficulty": 4,
+        "price":8,
+        "ingredients": [
+            "1 oz Apple brandy, Lairds Bonded",
+            "1 oz Old Tom Gin, Hayman's",
+            "3/4 oz Lemon juice",
+            "3/4 oz Dry vermouth, Dolin",
+            "1/2 oz Grenadine",
+            "1/2 oz Peach liqueur, Marie Brizard",
+            "2 ds Orange bitters, Regans' orange bitters"
+        ],
+        "instructions": "Shake, double strain, up.",
+        "name": "sex in the rumble seat"
+    },
+    {
+        "difficulty": 4,
+        "price":8,
+        "ingredients": [
+            "1/2 oz Anejo rum",
+            "1/2 oz Virgin Islands Rum, Cruzan Blackstrap",
+            "1/2 oz Calvados",
+            "1/2 oz Benedictine",
+            "1 bsp Maple syrup",
+            "2 ds Orange bitters",
+            "1 rinse Absinthe"
+        ],
+        "instructions": "Stir with ice, strain into absinthe-rinsed coupe.",
+        "name": "expense account rum cocktail"
+    },
+    {
+        "difficulty": 2,
+        "price":8,
+        "ingredients": [
+            "1 oz Rum, Montanya Platino",
+            "1 oz Rum, Appleton V/X",
+            "1/2 oz Apricot liqueur, Marie Brizard Apry",
+            "1/2 oz Simple syrup",
+            "1/2 oz Grapefruit juice (white)",
+            "3/4 oz Lime juice",
+            "1 ds Bitters, Fee Brothers Old Fashion"
+        ],
+        "instructions": "Shake, pour unstrained into a DOF or Tiki mug.",
+        "name": "the man with the golden rum"
+    },
+    {
+        "difficulty": 3,
+        "price":9,
+        "ingredients": [
+            "2 oz Blended rum, Banks",
+            "1/2 oz Cherry Liqueur, Cherry Heering",
+            "1/2 oz Lemon juice",
+            "1/4 oz Orgeat",
+            "1/4 oz Cinnamon syrup",
+            "1 ds Peychaud's Bitters",
+            "1 twst Lemon peel (as garnish)"
+        ],
+        "instructions": "Shake, strain, garnish.",
+        "name": "snare drum"
+    },
+    {
+        "difficulty": 5,
+        "price":9,
+        "ingredients": [
+            "1 oz Jamaican rum, Appleton Reserve",
+            "1/2 oz Guatemalan rum, Zacapa 23",
+            "1/2 oz Jamaican rum, Smith & Cross",
+            "1 t Demerara syrup (2:1)",
+            "2 ds Bitters, Angostura",
+            "1 ds Bitters, Bittermens Xocolatl Mole",
+            "1 twst Orange peel (as garnish)"
+        ],
+        "instructions": "Stir, strain, rocks, twist.",
+        "name": "three-rum old fashioned (franklin mortgage & investment co)"
+    },
+    {
+        "difficulty": 5,
+        "price":9,
+        "ingredients": [
+            "1 1/2 oz Rhum Agricole (Rhum Agricole clement premiere canne)",
+            "3/4 oz Bianco Vermouth, Dolin",
+            "1/2 oz Aperol",
+            "1/4 oz Campari",
+            "2 ds Grapefruit bitters (bittercube jamaica #2)"
+        ],
+        "instructions": "Stir with ice, strain into a cocktail coupe, and garnish with a grapefruit twist.",
+        "name": "inherent vice (rumdood)"
+    },
+    {
+        "difficulty": 3,
+        "price":9,
+        "ingredients": [
+            "2 oz Seltzer water",
+            "1/2 oz Lime juice",
+            "1 oz Hibiscus Liqueur",
+            "1/2 oz Rich demerara syrup 2:1",
+            "1 1/2 oz Blended rum",
+            "1 sli Lime (as garnish)"
+        ],
+        "instructions": "Put seltzer in Collins or highball. Shake remaining ingredients with ice and double strain into glass. Gently add ice. Garnish with hibiscus flower or lime wheel.",
+        "name": "hibiscus rum punch"
+    },
+    {
+        "difficulty": 5,
+        "price":9,
+        "ingredients": [
+            "1 oz Puerto Rican Rum, Bacardi Facundo NEO",
+            "4 oz Champagne",
+            "1/2 t Fernet Branca",
+            "3/4 oz Cola syrup",
+            "1 ds Bitters, Dr Adam Elmegirab's Orinoco Bitters"
+        ],
+        "instructions": "Build over big chunks of ice in a DOF glass and stir. Garnish with fresh grated lemon zest.",
+        "name": "rum & cola (blacktail)"
+    },
+    {
+        "difficulty": 5,
+        "price":10,
+        "ingredients": [
+            "4.5 cl (3 parts) tequila",
+            "9 cl (6 parts) orange juice",
+            "1.5 cl (1 part) grenadine syrup"
+        ],
+        "instructions": "Pour the tequila and orange juice into glass over ice.  Add the grenadine, which will sink to the bottom.  Stir gently to create the sunrise effect.  Garnish and serve.",
+        "name": "aperol sunrise"
+    },
+    {
+        "difficulty": 5,
+        "price":10,
+        "ingredients": [
+            "9 cl Prosecco",
+            "6 cl Select/Aperol/Campari/Cynar",
+            "Splash of soda water"
+        ],
+        "instructions": "Build all ingredients into a wine glass filled with ice. Stir gently.",
+        "name": "aperol spritz"
+    },
+    {
+        "difficulty": 2,
+        "price":10,
+        "ingredients": [
+            "1 oz Aperol",
+            "1/2 oz Lemon juice (juice of half a lemon)",
+            "1/2 oz Simple syrup",
+            "1  Egg white",
+            "2 oz Brut Champagne",
+            "1 twst Orange peel (as garnish)"
+        ],
+        "instructions": "Shake, strain over Champagne, twist.",
+        "name": "aperol flip"
+    },
+    {
+        "difficulty": 5,
+        "price":10,
+        "ingredients": [
+            "2 oz Aperol",
+            "1 oz Gin",
+            "3/4 oz Lemon juice",
+            "1/4 oz Simple syrup",
+            "1 ds Bitters, Angostura",
+            "1 twst Orange peel (as garnish)"
+        ],
+        "instructions": "Stir, strain, straight up, cocktail glass, garnish",
+        "name": "intro to aperol"
+    },
+    {
+        "difficulty": 5,
+        "price":10,
+        "ingredients": [
+            "1 oz Anejo tequila",
+            "1/2 oz Orange juice",
+            "1/2 oz Campari",
+            "1/4 oz Elderflower liqueur, St. Germain",
+            "1 twst Orange peel (as garnish)"
+        ],
+        "instructions": "Shake, strain, garnish.",
+        "name": "nishla tequila orange campari"
+    },
+    {
+        "difficulty": 1,
+        "price":12,
+        "ingredients": [
+            "3 oz Campari",
+            "3 dr Salt Solution (3-5, to taste)",
+            "1 twst Orange peel"
+        ],
+        "instructions": "Stir, strain, up, twist.",
+        "name": "campari \"martini\""
+    },
+    {
+        "difficulty": 5,
+        "price":12,
+        "ingredients": [
+            "1 1/2 oz Campari",
+            "1 oz Simple syrup",
+            "1/2 oz Grapefruit juice",
+            "1/2 oz Lime juice",
+            "1  Egg white"
+        ],
+        "instructions": "Shake, strain, garnish with cherry.",
+        "name": "campari sour #3"
+    },
+    {
+        "difficulty": 4,
+        "price":12,
+        "ingredients": [
+            "1 oz Campari",
+            "1 oz Cognac",
+            "1/4 t Grade B maple syrup",
+            "2 spg Mint (one muddled, one as garnish)"
+        ],
+        "instructions": "Muddle, shake, strain over crushed ice, garnish.",
+        "name": "campari stinger"
+    },
+    {
+        "difficulty": 5,
+        "price":12,
+        "ingredients": [
+            "3/4 oz Martinique Rum, Rhum JM (Blanc)",
+            "3/4 oz Campari",
+            "3/4 oz Falernum, Velvet Falernum",
+            "3/4 oz Chinato, Vergano Americano",
+            "3/4 oz Lemon juice"
+        ],
+        "instructions": "Swizzle with crushed ice in a tall thin glass until frost forms.",
+        "name": "campari swizzle"
+    },
+    {
+        "difficulty": 1,
+        "price":12,
+        "ingredients": [
+            "2 oz Campari",
+            "1 oz Orange liqueur, Clement Creole Shrubb (or other orange liqueur)",
+            "1 oz Lime juice",
+            "1/2 oz Cranberry juice (cranberry cocktail)",
+            "1 pn Salt",
+            "1 twst Orange peel (as garnish)"
+        ],
+        "instructions": "Shake, strain, up, twist.",
+        "name": "camparipolitan"
+    }
+]

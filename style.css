@@ -1,0 +1,243 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sidebar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 80px;
+    background-color: #dbd413;
+    padding: 0.4rem 0.8rem;
+    transition: all 0.5s ease;
+    position: fixed;
+}
+
+.sidebar.active{
+    width: 250px;
+}
+
+.sidebar #btn{
+    position: absolute;
+    color: #fff;
+    top: 0.4rem;
+    left: 50%;
+    font-size: 1.2rem;
+    line-height: 50px;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+
+.sidebar.active #btn{
+    left: 90%;
+}
+
+.sidebar .top .logo{
+    color: #fff;
+    display: flex;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    pointer-events: none;
+    opacity: 0;
+}
+
+.sidebar.active .top .logo{
+    opacity: 1;
+}
+
+.top .logo i {
+    font-size: 2rem;
+    margin-right: 5px;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+    padding-left: 0.5rem;
+}
+
+.user p {
+    color: white;
+    opacity: 1;
+    margin-left: 1rem;
+}
+
+.bold{
+    font-weight: 600;
+}
+
+.sidebar p {
+    opacity: 0;
+}
+
+.sidebar.active{
+    opacity: 1;
+}
+
+.sidebar ul li{
+    position: relative;
+    list-style-type: none;
+    height: 50px;
+    width: 90%;
+    margin: 0.8rem auto;
+    line-height: 50px;
+}
+
+.sidebar ul li a{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 0.8rem;
+}
+
+.sidebar ul li a:hover{
+    background-color: #fff;
+    color: #12171e;
+}
+
+.sidebar ul li a i{
+    min-width: 50px;
+    height: 50px;
+    border-radius: 12px;
+    line-height: 50px;
+    padding-left: 1rem;
+}
+
+ul {
+    padding: 0 0 0 0;
+}
+
+.sidebar .nav-item{
+    opacity: 0;
+}
+
+.sidebar.active .nav-item{
+    opacity: 1;
+}
+
+.bodyContainer{
+    background-image: url(./media/fresh-cocktails-with-ice-lemon-lime-fruits-generative-ai_188544-12370.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.colFilter{
+    position: sticky;
+    top: 56px;
+    height: 80vh;
+}
+
+.nav-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navBlock{
+    background-color: #dbd413;
+}
+
+.title{
+    backdrop-filter: blur(15px);
+    width: 40vw;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    color: #dbd413;
+    text-transform: uppercase;
+}
+
+.altezzaCol{
+    height: 95vh;
+}
+
+.boxRecensioni{
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+}
+
+.border{
+    width: 40vw;
+    height: 65vh;
+}
+
+.reviewCard{
+    width: 80%;
+    height: 100%;
+    border: 2px solid #dbd413;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    backdrop-filter: blur(15px);
+    color: white;
+
+}
+
+.cocktail-card{
+    height: 250px;
+    width: 32%;
+    border: 2px solid whitesmoke;
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    color: whitesmoke;
+}
+
+.number{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+  .swiper-pagination-bullets{
+    display: none;
+  }
+
+@media screen and (max-width:576px){
+
+    .cocktail-card{
+        width: 100%;
+    }
+    .colFilter{
+        position: static;
+    }
+    /* .sidebar{
+        display: none;
+        } */
+    }
