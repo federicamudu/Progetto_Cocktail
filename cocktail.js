@@ -49,11 +49,30 @@ fetch('./cocktail.json').then((response)=>response.json()).then((data)=>{
             <p class="h3">${cocktail.name.toUpperCase()}</p>
             <p>Difficoltà: ${cocktail.difficulty}</p>
             <p>Prezzo: ${cocktail.price} €</p>
+            <button type="button" class="btnDetails" data-bs-toggle="modal" data-bs-target="${cocktail.name}">
+            Vedi i dettagli
+            </button>
             `
             cardsWrapper.appendChild(div);
         })
 
     }
+    // let btnDetails = document.querySelectorAll('.btnDetails')
+    let modalWrapper = document.querySelector('.modalWrapper')
+    function showDetails(array){
+        array.forEach((cocktail)=>{
+            let div = document.createElement('div');
+            
+            div.innerHTML= `
+            <p>ciao</p>
+            `
+            modalWrapper.appendChild(div);
+        })
+    }
+    showDetails(data)
+    // btnDetails.addEventListener('click',()=>{
+    //     showDetails(data)
+    // })
     
 
     function setInputPrice() {
@@ -139,3 +158,24 @@ fetch('./cocktail.json').then((response)=>response.json()).then((data)=>{
 globalFilter()
 
 })
+
+
+
+{/* <div class="modal fade" id="${cocktail.name}" tabindex="-1" aria-labelledby="${cocktail.name}" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h1 class="modal-title fs-5" id="${cocktail.name}Label">${cocktail.name}</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            ${cocktail.ingredients}
+            <br>
+            ${cocktail.instructions}
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+    </div>
+</div>
+</div> */}
