@@ -43,14 +43,14 @@ fetch('./cocktail.json').then((response)=>response.json()).then((data)=>{
 
     function showCards(array) {
         cardsWrapper.innerHTML='';
-        array.forEach((cocktail)=>{
+        array.forEach((cocktail, i)=>{
             let div = document.createElement('div');
             div.classList.add('cocktail-card')
             div.innerHTML= `
             <p class="h3">${cocktail.name.toUpperCase()}</p>
             <p>Difficoltà: ${cocktail.difficulty}</p>
             <p>Prezzo: ${cocktail.price} €</p>
-            <button type="button" class="btnDetails" data-bs-toggle="modal" data-bs-target="#${cocktail.numberId}">
+            <button type="button" class="btnDetails" data-bs-toggle="modal" data-bs-target="#cocktail${i}">
             Vedi i dettagli
             </button>
             `
@@ -63,16 +63,16 @@ fetch('./cocktail.json').then((response)=>response.json()).then((data)=>{
 
     function showDetails(array){
         modalWrapper.innerHTML="";
-        array.forEach((cocktail)=>{
+        array.forEach((cocktail,i)=>{
 
             let div = document.createElement('div');
             
             div.innerHTML= `
-            <div class="modal fade" id="${cocktail.numberId}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal fade" id="cocktail${i}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="exampleModalLabel">${cocktail.name.toUpperCase()}</h1>
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">${cocktail.name}</h1>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
@@ -124,7 +124,6 @@ fetch('./cocktail.json').then((response)=>response.json()).then((data)=>{
             return array
         }else{
             let filtered = array.filter((cocktail)=>cocktail.difficulty == difficulty);
-            showDetails(filtered)
             return filtered;
         }
         
@@ -142,7 +141,7 @@ fetch('./cocktail.json').then((response)=>response.json()).then((data)=>{
 
     function filterByPrice(array) {
         let filtered = array.filter((cocktail)=> cocktail.price <= inputRange.value);
-        showDetails(filtered)
+
         return filtered;
         
     }
@@ -156,7 +155,7 @@ fetch('./cocktail.json').then((response)=>response.json()).then((data)=>{
     function filterByWord(array) {
         
         let filtered = array.filter((cocktail)=> cocktail.name.toLowerCase().includes(wordInput.value.toLowerCase())  )
-        showDetails(filtered)
+
         return filtered;
         
     }
@@ -174,6 +173,7 @@ fetch('./cocktail.json').then((response)=>response.json()).then((data)=>{
         let filteredByWord = filterByWord(filteredByPrice);
 
         showCards(filteredByWord)
+        showDetails(filteredByWord)
     }
 
 globalFilter()
