@@ -48,10 +48,10 @@ fetch('./cocktail.json').then((response)=>response.json()).then((data)=>{
             div.classList.add('cocktail-card')
             div.innerHTML= `
             <p class="h3">${cocktail.name.toUpperCase()}</p>
-            <p>Difficoltà: ${cocktail.difficulty}</p>
-            <p>Prezzo: ${cocktail.price} €</p>
-            <button type="button" class="btnDetails" data-bs-toggle="modal" data-bs-target="#cocktail${i}">
-            Vedi i dettagli
+            <p>Difficulty: ${cocktail.difficulty}</p>
+            <p>Price: ${cocktail.price} €</p>
+            <button type="button" class="btn btnDetails" data-bs-toggle="modal" data-bs-target="#cocktail${i}">
+            ShakeIt!
             </button>
             `
             cardsWrapper.appendChild(div);
@@ -70,18 +70,18 @@ fetch('./cocktail.json').then((response)=>response.json()).then((data)=>{
             div.innerHTML= `
             <div class="modal fade" id="cocktail${i}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-                    <div class="modal-content">
+                    <div class="modal-content modalCustom">
                         <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="exampleModalLabel">${cocktail.name}</h1>
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">${cocktail.name.toUpperCase()}</h1>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
-                        <div class="modal-body">
+                        <div class="modal-body">Ingredients:<br>
                             ${cocktail.ingredients}
                             <hr>
-                            ${cocktail.instructions}
+                            Method:<br>${cocktail.instructions}
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-outline-warning" data-bs-dismiss="modal">Cheers!</button>
                         </div>
                     </div>
                 </div>

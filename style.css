@@ -1,11 +1,11 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.sidebar{
+.sidebar {
     position: absolute;
     top: 0;
     left: 0;
@@ -17,11 +17,11 @@
     position: fixed;
 }
 
-.sidebar.active{
+.sidebar.active {
     width: 250px;
 }
 
-.sidebar #btn{
+.sidebar #btn {
     position: absolute;
     color: #fff;
     top: 0.4rem;
@@ -32,11 +32,11 @@
     cursor: pointer;
 }
 
-.sidebar.active #btn{
+.sidebar.active #btn {
     left: 90%;
 }
 
-.sidebar .top .logo{
+.sidebar .top .logo {
     color: #fff;
     display: flex;
     height: 50px;
@@ -46,7 +46,7 @@
     opacity: 0;
 }
 
-.sidebar.active .top .logo{
+.sidebar.active .top .logo {
     opacity: 1;
 }
 
@@ -55,7 +55,7 @@
     margin-right: 5px;
 }
 
-.user{
+.user {
     display: flex;
     align-items: center;
     margin: 1rem 0;
@@ -68,7 +68,7 @@
     margin-left: 1rem;
 }
 
-.bold{
+.bold {
     font-weight: 600;
 }
 
@@ -76,11 +76,11 @@
     opacity: 0;
 }
 
-.sidebar.active{
+.sidebar.active {
     opacity: 1;
 }
 
-.sidebar ul li{
+.sidebar ul li {
     position: relative;
     list-style-type: none;
     height: 50px;
@@ -89,7 +89,7 @@
     line-height: 50px;
 }
 
-.sidebar ul li a{
+.sidebar ul li a {
     color: #fff;
     display: flex;
     align-items: center;
@@ -97,12 +97,12 @@
     border-radius: 0.8rem;
 }
 
-.sidebar ul li a:hover{
+.sidebar ul li a:hover {
     background-color: #fff;
     color: #12171e;
 }
 
-.sidebar ul li a i{
+.sidebar ul li a i {
     min-width: 50px;
     height: 50px;
     border-radius: 12px;
@@ -114,15 +114,15 @@ ul {
     padding: 0 0 0 0;
 }
 
-.sidebar .nav-item{
+.sidebar .nav-item {
     opacity: 0;
 }
 
-.sidebar.active .nav-item{
+.sidebar.active .nav-item {
     opacity: 1;
 }
 
-.bodyContainer{
+.bodyContainer {
     background-image: url(./media/fresh-cocktails-with-ice-lemon-lime-fruits-generative-ai_188544-12370.avif);
     background-position: center;
     background-repeat: no-repeat;
@@ -131,23 +131,23 @@ ul {
     min-height: 100vh;
 }
 
-.colFilter{
+.colFilter {
     position: sticky;
     top: 56px;
     height: 80vh;
 }
 
-.nav-link{
+.nav-link {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.navBlock{
+.navBlock {
     background-color: #dbd413;
 }
 
-.title{
+.title {
     backdrop-filter: blur(15px);
     width: 40vw;
     height: 20vh;
@@ -159,21 +159,21 @@ ul {
     text-transform: uppercase;
 }
 
-.altezzaCol{
+.altezzaCol {
     height: 95vh;
 }
 
-.boxRecensioni{
+.boxRecensioni {
     backdrop-filter: blur(15px);
     border-radius: 20px;
 }
 
-.border{
+.border {
     width: 40vw;
     height: 65vh;
 }
 
-.reviewCard{
+.reviewCard {
     width: 80%;
     height: 100%;
     border: 2px solid #dbd413;
@@ -188,7 +188,7 @@ ul {
 
 }
 
-.cocktail-card{
+.cocktail-card {
     height: 250px;
     width: 32%;
     border: 2px solid whitesmoke;
@@ -203,7 +203,7 @@ ul {
     color: whitesmoke;
 }
 
-.number{
+.number {
     font-weight: bold;
     font-size: 40px;
 }
@@ -212,32 +212,47 @@ ul {
     width: 100%;
     padding-top: 50px;
     padding-bottom: 50px;
-  }
+}
 
-  .swiper-slide {
+.swiper-slide {
     background-position: center;
     background-size: cover;
     width: 300px;
     height: 300px;
-  }
+}
 
-  .swiper-slide img {
+.swiper-slide img {
     display: block;
     width: 100%;
-  }
-  .swiper-pagination-bullets{
+}
+
+.swiper-pagination-bullets {
     display: none;
-  }
+}
 
-@media screen and (max-width:576px){
+.btnDetails{
+    background-color: #dbd413;
+    width: 40%;
+    margin-left: 25%;
+}
 
-    .cocktail-card{
+.modalCustom{
+    background-color: #5b5b5b !important;
+    color: #dfe0e2 !important;
+    border-radius: 20px;
+}
+
+@media screen and (max-width:576px) {
+
+    .cocktail-card {
         width: 100%;
     }
-    .colFilter{
+
+    .colFilter {
         position: static;
     }
+
     /* .sidebar{
         display: none;
         } */
-    }
+}
